@@ -31,6 +31,18 @@ spec:
       type: internal
       tls: true
       {{- include "kafka-broker.authentication" . | nindent 6 }}
+    {{- if .Values.kafka.listener.external.enabled }}
+    - name: ext
+      port: 9094
+      type: {{ .Values.kafka.listener.external.type }}
+      tls: true
+      {{- include "kafka-broker.authentication" . | nindent 6 }}
+      configuration:
+        brokerCertChainAndKey:
+          secretName: {{ include "kafka-broker.name" . }}-tls-secret
+          certificate: {{ .Values.kafka.listener.external.tls.secret.key.crt }}
+          key: {{ .Values.kafka.listener.external.tls.secret.key.key }}     
+    {{- end }}
     config:
       allow.everyone.if.no.acl.found: 'true'
       auto.create.topics.enable: {{ .Values.kafka.config.autoCreateTopics }}

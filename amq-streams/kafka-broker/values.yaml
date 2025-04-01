@@ -24,6 +24,18 @@ kafka:
     transactionStateLogMinIsr: 2
     minInsyncReplicas: 2
     interBrokerProtocolVersion: '3.9'
+  listener:
+    external:
+      enabled: true
+      type: route
+      tls:
+        secret:
+          key:
+            crt: tls.crt
+            key: tls.key
+          value:
+            crt:
+            key: 
   entityOperator:
     topicOperator:
       resources:
