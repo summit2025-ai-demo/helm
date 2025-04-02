@@ -11,10 +11,14 @@ metadata:
     {{- include "amq-streams-console.argocd-syncwave" . | nindent 4 }}
 spec:
   hostname: {{ include "amq-streams-console.name" . }}.{{ .Values.subdomain }}
+  metricsSources:
+    - name: ocp-prometheus
+      type: openshift-monitoring
   kafkaClusters:
     - name: {{ .Values.kafka.name }}
       namespace: {{ .Values.namespace }}
       listener: tls
+      metricsSource: ocp-prometheus
       properties:
         values: []
         valuesFrom: []
