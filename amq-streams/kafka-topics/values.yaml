@@ -1,0 +1,14 @@
+
+
+kafka:
+  cluster: kafka
+  replicationFactor: 3
+  topics:
+    - name: intake
+      partitions: 1
+      retention: -1
+  namespace: 
+
+argocd:
+  enabled: true
+  syncwave: "1"
