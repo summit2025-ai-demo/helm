@@ -8,6 +8,9 @@ dependencies:
   - name: amq-streams-operator
     version: 0.1.0
     repository: file://amq-streams-operator
+  - name: amq-streams-console-operator
+    version: 0.1.0
+    repository: file://amq-streams-console-operator
   - name: kafka-broker
     version: 0.1.0
     repository: file://kafka-broker
