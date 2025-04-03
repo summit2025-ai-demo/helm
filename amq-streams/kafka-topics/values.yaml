@@ -7,6 +7,12 @@ kafka:
     - name: intake
       partitions: 1
       retention: -1
+    - name: structured
+      partitions: 1
+      retention: -1
+    - name: review
+      partitions: 1
+      retention: -1
   namespace: 
 
 argocd:
