@@ -16,6 +16,15 @@ kafka:
     - name: router
       partitions: 1
       retention: -1
+    - name: support
+      partitions: 1
+      retention: -1
+    - name: finance
+      partitions: 1
+      retention: -1
+    - name: website
+      partitions: 1
+      retention: -1
   namespace: 
 
 argocd:
