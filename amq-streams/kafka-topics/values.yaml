@@ -13,6 +13,9 @@ kafka:
     - name: review
       partitions: 1
       retention: -1
+    - name: router
+      partitions: 1
+      retention: -1
   namespace: 
 
 argocd:
