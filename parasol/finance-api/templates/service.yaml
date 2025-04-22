@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "finance-api.name" . }}
+  labels:
+    {{- include "finance-api.labels" . | nindent 4 }}
+spec:
+  ports:
+  - name: {{ .Values.service.portName }}
+    port: {{ .Values.service.port }}
+    protocol: TCP
+    targetPort: {{ .Values.service.containerPort }}
+  selector:
+    {{- include "finance-api.selectorLabels" . | nindent 4 }}
