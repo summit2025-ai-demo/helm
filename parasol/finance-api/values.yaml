@@ -41,7 +41,7 @@ readinessProbe:
   failureThreshold: 3
 
 route:
-  enabled: false
+  enabled: true
   host:
   tlsEnabled: true
   tls:
