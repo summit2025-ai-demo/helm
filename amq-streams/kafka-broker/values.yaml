@@ -66,8 +66,8 @@ bootstrapServer:
 namespace:
 
 authentication:
-  clientId: globex
-  clientSecret: globex
+  clientId: parasol
+  clientSecret: parasol
   securityProtocol: SASL_PLAINTEXT
   saslMechanism: SCRAM-SHA-512
 
