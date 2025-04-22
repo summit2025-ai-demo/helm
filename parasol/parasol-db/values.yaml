@@ -68,5 +68,5 @@ persistence:
   capacity: 5Gi
 
 argocd:
-  enabled: false
+  enabled: true
   syncwave: "-2"
