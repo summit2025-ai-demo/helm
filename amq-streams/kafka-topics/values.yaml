@@ -25,6 +25,9 @@ kafka:
     - name: website
       partitions: 1
       retention: -1
+    - name: outflow
+      partitions: 1
+      retention: -1
   namespace: 
 
 argocd:
