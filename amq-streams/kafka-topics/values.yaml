@@ -28,6 +28,9 @@ kafka:
     - name: outflow
       partitions: 1
       retention: -1
+    - name: support-documents
+      partitions: 1
+      retention: -1
   namespace: 
 
 argocd:
