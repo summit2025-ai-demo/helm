@@ -1,0 +1,10 @@
+apiVersion: v2
+name: parasol-ai
+description: A Helm chart for Kubernetes
+type: application
+version: 0.1.0
+
+dependencies:
+  - name: structure-message
+    version: 0.1.0
+    repository: file://structure-message
