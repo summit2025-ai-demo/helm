@@ -8,3 +8,6 @@ dependencies:
   - name: structure-message
     version: 0.1.0
     repository: file://structure-message
+  - name: customer-data
+    version: 0.1.0
+    repository: file://customer-data
