@@ -84,7 +84,7 @@ kafka:
     structured: structured
     error: review
   consumerGroup:
-    structured: structure-message-consumer-grp
+    intake: structure-message-consumer-grp
 
 llm:
   modelName:
