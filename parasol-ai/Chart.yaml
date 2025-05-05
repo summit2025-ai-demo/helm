@@ -14,3 +14,6 @@ dependencies:
   - name: router
     version: 0.1.0
     repository: file://router
+  - name: finance-mcp
+    version: 0.1.0
+    repository: file://finance-mcp
