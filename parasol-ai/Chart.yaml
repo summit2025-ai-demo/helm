@@ -17,3 +17,6 @@ dependencies:
   - name: finance-mcp
     version: 0.1.0
     repository: file://finance-mcp
+  - name: finance-ai
+    version: 0.1.0
+    repository: file://finance-ai
