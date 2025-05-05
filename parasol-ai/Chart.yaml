@@ -11,3 +11,6 @@ dependencies:
   - name: customer-data
     version: 0.1.0
     repository: file://customer-data
+  - name: router
+    version: 0.1.0
+    repository: file://router
