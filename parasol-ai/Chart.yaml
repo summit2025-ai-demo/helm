@@ -26,3 +26,6 @@ dependencies:
   - name: website-mcp
     version: 0.1.0
     repository: file://website-mcp
+  - name: website-ai
+    version: 0.1.0
+    repository: file://website-ai
