@@ -23,3 +23,6 @@ dependencies:
   - name: support-ai
     version: 0.1.0
     repository: file://support-ai
+  - name: website-mcp
+    version: 0.1.0
+    repository: file://website-mcp
