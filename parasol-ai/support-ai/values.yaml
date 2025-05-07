@@ -102,6 +102,8 @@ embedding:
   apiKey:
   baseUrl:
   timeout: 60s
+  dimension: 768
+  setDimension: false
   log:
     requests: true
     responses: true
