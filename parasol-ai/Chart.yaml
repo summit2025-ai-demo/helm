@@ -29,3 +29,6 @@ dependencies:
   - name: website-ai
     version: 0.1.0
     repository: file://website-ai
+  - name: moderation
+    version: 0.1.0
+    repository: file://moderation
