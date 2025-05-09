@@ -7,6 +7,9 @@ kafka:
     - name: intake
       partitions: 1
       retention: -1
+    - name: moderated
+      partitions: 1
+      retention: -1
     - name: structured
       partitions: 1
       retention: -1
