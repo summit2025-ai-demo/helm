@@ -80,7 +80,7 @@ kafka:
   clientId: ""
   clientSecret: ""
   topic:
-    intake: intake
+    intake: moderated
     structured: structured
     error: review
   consumerGroup:
