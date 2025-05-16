@@ -32,7 +32,7 @@ service:
   portName: http
 
 route:
-  enabled: false
+  enabled: true
   host:
   tlsEnabled: true
   tls:
