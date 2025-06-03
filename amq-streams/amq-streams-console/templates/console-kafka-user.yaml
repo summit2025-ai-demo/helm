@@ -11,7 +11,8 @@ metadata:
     {{- include "amq-streams-console.labels" . | nindent 4 }}
     strimzi.io/cluster: {{ .Values.kafka.name }}
   annotations:
-    {{- include "amq-streams-console.argocd-syncwave" . | nindent 4 }}  
+    {{- include "amq-streams-console.argocd-syncwave" . | nindent 4 }}
+    argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
   authentication:
     type: scram-sha-512
