@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: quay.io/aidemosummit2025/structure-message
+  repository: quay.io/aidemosummit2025/structured-output
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: caaa94d
@@ -84,7 +84,7 @@ kafka:
     structured: structured
     error: review
   consumerGroup:
-    intake: structure-message-consumer-grp
+    intake: structured-output-consumer-grp
 
 llm:
   modelName:

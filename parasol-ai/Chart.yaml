@@ -5,9 +5,9 @@ type: application
 version: 0.1.0
 
 dependencies:
-  - name: structure-message
+  - name: structured-output
     version: 0.1.0
-    repository: file://structure-message
+    repository: file://structured-output
   - name: customer-data
     version: 0.1.0
     repository: file://customer-data
