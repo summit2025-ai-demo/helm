@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/customer-data
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "66ec2ec"
+  tag: "5e1acaf"
 
 nameOverride: ""
 fullnameOverride: ""
@@ -81,10 +81,10 @@ kafka:
   clientSecret: ""
   topic:
     intake: structured
-    structured: router
+    outflow: router
     error: review
   consumerGroup:
-    structured: customer-data-consumer-grp
+    intake: customer-data-consumer-grp
 
 datasource:
   username: parasol
