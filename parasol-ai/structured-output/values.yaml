@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/structured-output
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: caaa94d
+  tag: "4545803"
 
 nameOverride: ""
 fullnameOverride: ""
