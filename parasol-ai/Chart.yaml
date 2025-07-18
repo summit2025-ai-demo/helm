@@ -32,3 +32,6 @@ dependencies:
   - name: moderation
     version: 0.1.0
     repository: file://moderation
+  - name: document-embedding
+    version: 0.1.0
+    repository: file://document-embedding  
