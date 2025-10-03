@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/finance-mcp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "6c57365"
+  tag: "aebd339"
 
 imagePullSecrets: []
 nameOverride: ""
