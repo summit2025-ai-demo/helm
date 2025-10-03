@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/moderation
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "a9aa23f"
+  tag: "6bd53fd"
 
 imagePullSecrets: []
 nameOverride: ""
