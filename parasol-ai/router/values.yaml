@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/router
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "dc986ba"
+  tag: "2461f05"
 
 imagePullSecrets: []
 nameOverride: ""
