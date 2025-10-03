@@ -8,7 +8,7 @@ image:
   repository: quay.io/aidemosummit2025/document-embedding
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "eb4b2a8"
+  tag: "85a4c85"
 
 imagePullSecrets: []
 nameOverride: ""
